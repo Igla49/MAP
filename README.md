@@ -1,9 +1,9 @@
 # MAP Roga Igor 
-#Descrierea programului
+# Descrierea programului
 
 În acest program se realizează o aplicație C++ pentru gestionarea notelor școlare. Programul permite adăugarea elevilor, introducerea notelor pentru fiecare elev, afișarea acestora și calcularea mediei notelor. Informațiile despre elevi sunt stocate într-un vector de obiecte, folosind programarea orientată pe obiecte.
 
-#Pașii de execuție
+# Pașii de execuție
 
 1.Se definește clasa Elev, care conține numele elevului și un vector de note, precum și metode pentru adăugarea notelor, calcularea mediei și afișarea informațiilor.
 
