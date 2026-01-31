@@ -1,5 +1,5 @@
 FROM gcc:latest
-WORKDIR /Desktop/MAP/MAP
-COPY main.cpp .
-RUN g++ -o MAP main.cpp
-CMD ["./MAP"]
+WORKDIR /usr/src/myapp
+COPY myapp.cpp .
+RUN g++ -o myapp myapp.cpp
+CMD ["./myapp"]
